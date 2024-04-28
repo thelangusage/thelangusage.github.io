@@ -93,7 +93,7 @@
 							<input type="email" id="email" name="form_email" placeholder="Youremail@gmail.com" required>
 							
 							<br>
-							
+								<h5>Write your message/enquiry below:</h5>
 							<br>
 
 							<textarea name="message" id="message" rows="8" placeholder="Write your message here.." required></textarea>
