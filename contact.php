@@ -94,13 +94,6 @@
 							
 							<br>
 							
-							<select id="select" name="reason">
-								<option id="feedback" name="feedback">Feedback</option>
-								<option id="reportb" name="reportb">Report a bug</option>
-								<option id="requestl" name="requestl">Request a language</option>
-								<option id="other" name="other">Other</option>
-							</select>
-							
 							<br>
 
 							<textarea name="message" id="message" rows="8" placeholder="Write your message here.." required></textarea>
