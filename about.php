@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<!--meta elements-->
+
+		<meta name = "viewport" content = "with=device-width, initial-scale = 1.0">
+		<meta name = "description" content = "Free language learning resources at all levels!">
+		<meta name="keywords" content="Learning Languages, Spanish, Arabic, English, Chinese, Polyglot, Languages">
+		
+		<title> LanguSage </title>
+
+		<!--resources for fonts and the stylesheet link-->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/0a0974334c.js" crossorigin="anonymous"></script>
+		<link rel = "stylesheet" href = "style.css">
+		<script src="LanguSage.js"></script>
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+		
+		<script>
+			function showMenu() {
+				document.getElementById("navLinks").style.right = "0";
+			}
+		
+			function hideMenu() {
+				document.getElementById("navLinks").style.right = "-200px";
+			}
+		</script>
+	</head>
+    
+	<body>
+		<section class = "sub-header">
+
+			<!--Navigation links for other parts of the website-->
+
+			<nav> 
+				<a href="index.html" ><img src = "images/logob2.png" class = "logo"></a>
+					<i class="fas fa-bars" onclick="showMenu()"></i> <!--the menu icon: bars-->
+					<div class = "nav-links abt-us" id="navLinks">
+						<i class="fas fa-xmark" onclick="hideMenu()"></i><!--X icon-->
+						<ul>
+							<li> <a href = "index.php" >HOME</a></li>
+							<li> <a href = "about.php" >ABOUT US</a></li>
+							<li> <a href = "resources.php" >RESOURCES</a></li>
+							<li> <a href = "newsletter.php" >NEWSLETTER</a></li>
+							<li> <a href = "contact.php" >CONTACT</a></li>
+						</ul>
+				</div>
+			</nav>
+
+			<h1>About Us</h1>
+			
+		</section>
+
+			<!--About Us Section-->
+
+			<section class="about-us">
+				<div class="row">
+					<div class="about-col">
+						<h1>The Origins of LanguSage</h1>
+						<p>
+							Meet <b>Sage</b>, the heart behind LanguSage. Sage, is a 20-year-old language enthusiast with 
+							a passion for learning and teaching languages. <br>
+							Her journey began at the age of 16, when she fell in love with the world of language learning.<br>
+							Starting with German, Sage initially struggled with ineffective methods, feeling lost and unsure about which resources to use. <br><br>
+							Despite these challenges, her determination and love for languages drove her to seek better strategies. She immersed herself in the world of language learning, experimenting with various methods and resources. 
+							Through perseverance and dedication, <br>Sage overcame her obstacles and eventually achieved an advanced intermediate level in Spanish and is learning Mandarin Chinese currently using the same resources provided to you! <br><br>
+							Throughout her journey, Sage collaborated with polyglots from around the globe, learning from their experiences and sharing her own insights. 
+							<br><br>With LanguSage, Sage aims to make language learning an enjoyable and enriching experience for all, guiding learners through their own language learning adventures.
+						</p>
+						<a href="resources.html" class="intro-button red-btn"> Start Now! </a>
+					</div>
+				</div>
+			</section>
+			
+	
+	<!--Footer-->
+
+		<section class = "footer">
+			
+			<br>
+			<div class= "icons">
+				<i class="fa-brands fa-instagram"></i>
+				<i class="fa-brands fa-tiktok"></i>
+			</div>
+			<br>
+			<p><i>Hanan Salem Al-Qahtani</i></p>
+			<p> &reg; 2024 LanguSage | All rights reserved<br></p>
+		</section>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
